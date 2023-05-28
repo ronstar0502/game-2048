@@ -1,12 +1,14 @@
 .tile {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 25%;
-    width: 25%;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
     font-size: 2em;
     font-weight: bold;
     color: #776e65;
+    margin-bottom: 10px;
+    border-radius: 6px;
 }
 .tile-2 {
     background: #eee4da;

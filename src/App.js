@@ -16,9 +16,10 @@ function App() {
       [0, 0, 0, 0],
       [0, 0, 0, 0],
     ];
-    setGameBoard(startCells(testBoard));
-    setGameOver(false);
-    setGameWon(false);
+    setGameBoard(startCells(testBoard))
+    setGameOver(false)
+    setGameWon(false)
+    setGameScore(0)
   }
 
   function startCells(board) {
